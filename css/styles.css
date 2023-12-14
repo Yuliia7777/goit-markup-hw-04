@@ -98,6 +98,7 @@ img {
 .menu-top-line {
   display: block;
   position: relative;
+
   font-size: 16px;
   font-weight: 500;
   color: #2e2f42;
@@ -179,10 +180,10 @@ img {
     url(../images/people-office2.jpg);
   margin: 0 auto;
   max-width: 1440px;
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px 600px;
+  /*background-size: 1440px 600px;*/
+  background-size: cover;
   background-color: #2e2f42;
 }
 
