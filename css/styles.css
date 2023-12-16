@@ -108,18 +108,18 @@ img {
   padding: 24px 0;
 }
 
-/*.menu-top-line.home::after,
-.menu-top-line::after {
-  content: ;
+.menu-top-line.active::after,
+.menu-top-line:hover::after {
+  content: '';
   position: absolute;
   left: 0;
   bottom: -1px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-  color: #404bbf; 
+  color: #404bbf;
   width: 100%;
-} */
+}
 
 .menu-top-line:hover,
 .menu-top-line:focus {
@@ -180,9 +180,9 @@ img {
     ),
     url(../images/people-office2.jpg);
   margin: 0 auto;
-  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
+  max-width: 1440px;
   /*background-size: 1440px 600px;*/
   background-size: cover;
   background-color: #2e2f42;
